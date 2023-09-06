@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAA_M03C</Text>
+    <Description>Moving day for RAA_M03C</Description>
+    <Assembly>RAA_M03C.dll</Assembly>
+    <FullClassName>RAA_M03C.MovingDay</FullClassName>
+    <ClientId>45451354-63A3-477E-819C-8B3EC657D020</ClientId>
+    <VendorId>Javier Bustamante Munguira</VendorId>
+    <VendorDescription>javierbustamantemunguira@gmail.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAA_M03C</Name>
+    <Assembly>RAA_M03C.dll</Assembly>
+    <FullClassName>RAA_M03C.App</FullClassName>
+    <ClientId>{9E04866B-1D7A-451E-BE62-F6C3B16919E7}</ClientId>
+    <VendorId>Javier Bustamante Munguira</VendorId>
+    <VendorDescription>javierbustamantemunguira@gmail.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
